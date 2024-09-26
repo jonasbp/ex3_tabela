@@ -40,7 +40,7 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: jonasbp/aposta-ci:${{ github.sha }}
+        tags: jonasbp/tabela-ci:${{ github.sha }}
     - name: executing remote ssh commands using password 
       uses: appleboy/ssh-action@master
       with:
